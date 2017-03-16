@@ -16,7 +16,7 @@ def start():
 
     # Convert Portland time to New York City time and London time
     newyorkTime = datetime.now() + timedelta(hours=3)
-    londonTime = datetime.now() + timedelta(hours=7)
+    londonTime = datetime.now() + timedelta(hours=8)
 
     # Hours of operation
     openTime = portlandTime.replace(hour=9, minute=0)
